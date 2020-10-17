@@ -5,6 +5,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from zipfile import ZipFile
 from IPython.core.magic import register_cell_magic, needs_local_scope
+from IPython.display import display 
 
 @register_cell_magic
 @needs_local_scope
